@@ -9,14 +9,14 @@ https://spring.io/guides/tutorials/rest/
   
   Códigos HTTP:
 
-1XX: Informativo:
+<h3>1XX: Informativo:</h3>
 a solicitação foi aceita ou o processo continua em andamento;
 
 101 Mudando protocolos:
 Isso significa que o solicitante pediu ao servidor para mudar os protocolos, e o servidor está reconhecendo que irá fazê-lo.
-
-
-2XX: Confirmação:  
+</br>
+</br>
+<h3>2XX: Confirmação:</h3>
 a ação foi concluída ou entendida;
 
 200 OK:
@@ -24,9 +24,10 @@ Código mais utilizado, e que indica que a requisição foi processada com suces
 
 201 Created:
 Indica que a requisição foi bem sucedida e que um novo registro foi criado como resultado. Resposta utilizada em requisições do método POST.
+</br>
+</br>
 
-
-3XX: Redirecionamento:
+<h3>3XX: Redirecionamento:</h3>
 indica que algo mais precisa ser feito ou precisou ser feito para completar a solicitação;
 
 301 Movido
@@ -34,9 +35,9 @@ Esta e todas as solicitações futuras devem ser direcionadas para o URI.
 
 306 Proxy Switch
 Mudança de proxy. Deixou de ser usado.
-
-
-4XX: Erro do cliente:
+</br>
+</br>
+<h3>4XX: Erro do cliente:</h3>
 indica que a solicitação não pode ser concluída ou contém a sintaxe incorreta;
 
 400 Bad Request
@@ -44,8 +45,9 @@ Essa resposta significa que o servidor não consegue entender sua requisição, 
 
 404 Not Found 
 Código que informa que o servidor não encontra o recurso solicitado pelo cliente.
-
-5XX: Erro no servidor
+</br>
+</br>
+<h3>5XX: Erro no servidor:</h3>
 o servidor falhou ao concluir a solicitação.
 
 501 Não implementado (Not implemented)
