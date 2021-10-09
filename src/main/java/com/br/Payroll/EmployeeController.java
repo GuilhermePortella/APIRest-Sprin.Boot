@@ -1,21 +1,19 @@
 package com.br.Payroll;
 
 import java.util.List;
-import org.springframework.hateoas.EntityModel;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
  * @author Guilherme
  */
-@Controller
+@RestController
 public class EmployeeController {
 
     private final EmployeeRepository repository;
