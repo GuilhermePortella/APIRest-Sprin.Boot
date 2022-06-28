@@ -1,10 +1,10 @@
 package com.br.Payroll;
 
-import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 /**
  *
@@ -23,5 +23,4 @@ class LoadDatabase {
             log.info("Preloading " + repository.save(new Employee("Frodo Baggins", "thief")));
         };
     }
-    
 }
